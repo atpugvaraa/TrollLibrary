@@ -2,13 +2,13 @@
 //  TrollLibraryApp.swift
 //  TrollLibrary
 //
-//  Created by Aarav Gupta on 17/06/25.
+//  Created by Aarav Gupta on 03/12/23.
 //
 
 import SwiftUI
 
 @main
-struct TrollLibraryApp: App {
+struct TrollLibrary: App {
     var body: some Scene {
         WindowGroup {
             ContentView()

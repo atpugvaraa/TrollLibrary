@@ -3,23 +3,28 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 77;
+	objectVersion = 56;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		770CDAFD2B1C23270012D781 /* TrollLibraryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 770CDAFC2B1C23270012D781 /* TrollLibraryApp.swift */; };
+		770CDAFF2B1C23270012D781 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 770CDAFE2B1C23270012D781 /* ContentView.swift */; };
+		770CDB012B1C232A0012D781 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 770CDB002B1C232A0012D781 /* Assets.xcassets */; };
+		770CDB042B1C232A0012D781 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 770CDB032B1C232A0012D781 /* Preview Assets.xcassets */; };
+		E38566E22B1CF656007781D8 /* DarkAndLightMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = E38566E12B1CF656007781D8 /* DarkAndLightMode.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
-		7733BDF82E010C9800249E75 /* TrollLibrary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrollLibrary.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		770CDAF92B1C23270012D781 /* TrollLibrary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrollLibrary.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		770CDAFC2B1C23270012D781 /* TrollLibraryApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrollLibraryApp.swift; sourceTree = "<group>"; };
+		770CDAFE2B1C23270012D781 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		770CDB002B1C232A0012D781 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		770CDB032B1C232A0012D781 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E38566E12B1CF656007781D8 /* DarkAndLightMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DarkAndLightMode.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		7733BDFA2E010C9800249E75 /* TrollLibrary */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = TrollLibrary;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
-
 /* Begin PBXFrameworksBuildPhase section */
-		7733BDF52E010C9800249E75 /* Frameworks */ = {
+		770CDAF62B1C23270012D781 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -29,103 +34,122 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		7733BDEF2E010C9800249E75 = {
+		770CDAF02B1C23270012D781 = {
 			isa = PBXGroup;
 			children = (
-				7733BDFA2E010C9800249E75 /* TrollLibrary */,
-				7733BDF92E010C9800249E75 /* Products */,
+				770CDAFB2B1C23270012D781 /* TrollLibrary */,
+				770CDAFA2B1C23270012D781 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		7733BDF92E010C9800249E75 /* Products */ = {
+		770CDAFA2B1C23270012D781 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				7733BDF82E010C9800249E75 /* TrollLibrary.app */,
+				770CDAF92B1C23270012D781 /* TrollLibrary.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		770CDAFB2B1C23270012D781 /* TrollLibrary */ = {
+			isa = PBXGroup;
+			children = (
+				770CDAFC2B1C23270012D781 /* TrollLibraryApp.swift */,
+				770CDAFE2B1C23270012D781 /* ContentView.swift */,
+				770CDB002B1C232A0012D781 /* Assets.xcassets */,
+				770CDB022B1C232A0012D781 /* Preview Content */,
+				E38566E12B1CF656007781D8 /* DarkAndLightMode.swift */,
+			);
+			path = TrollLibrary;
+			sourceTree = "<group>";
+		};
+		770CDB022B1C232A0012D781 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				770CDB032B1C232A0012D781 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		7733BDF72E010C9800249E75 /* TrollLibrary */ = {
+		770CDAF82B1C23270012D781 /* TrollLibrary */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7733BE032E010C9900249E75 /* Build configuration list for PBXNativeTarget "TrollLibrary" */;
+			buildConfigurationList = 770CDB072B1C232A0012D781 /* Build configuration list for PBXNativeTarget "TrollLibrary" */;
 			buildPhases = (
-				7733BDF42E010C9800249E75 /* Sources */,
-				7733BDF52E010C9800249E75 /* Frameworks */,
-				7733BDF62E010C9800249E75 /* Resources */,
+				770CDAF52B1C23270012D781 /* Sources */,
+				770CDAF62B1C23270012D781 /* Frameworks */,
+				770CDAF72B1C23270012D781 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			fileSystemSynchronizedGroups = (
-				7733BDFA2E010C9800249E75 /* TrollLibrary */,
-			);
 			name = TrollLibrary;
-			packageProductDependencies = (
-			);
 			productName = TrollLibrary;
-			productReference = 7733BDF82E010C9800249E75 /* TrollLibrary.app */;
+			productReference = 770CDAF92B1C23270012D781 /* TrollLibrary.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		7733BDF02E010C9800249E75 /* Project object */ = {
+		770CDAF12B1C23270012D781 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 2600;
-				LastUpgradeCheck = 2600;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
 				TargetAttributes = {
-					7733BDF72E010C9800249E75 = {
-						CreatedOnToolsVersion = 26.0;
+					770CDAF82B1C23270012D781 = {
+						CreatedOnToolsVersion = 15.0.1;
 					};
 				};
 			};
-			buildConfigurationList = 7733BDF32E010C9800249E75 /* Build configuration list for PBXProject "TrollLibrary" */;
+			buildConfigurationList = 770CDAF42B1C23270012D781 /* Build configuration list for PBXProject "TrollLibrary" */;
+			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = 7733BDEF2E010C9800249E75;
-			minimizedProjectReferenceProxies = 1;
-			preferredProjectObjectVersion = 77;
-			productRefGroup = 7733BDF92E010C9800249E75 /* Products */;
+			mainGroup = 770CDAF02B1C23270012D781;
+			productRefGroup = 770CDAFA2B1C23270012D781 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				7733BDF72E010C9800249E75 /* TrollLibrary */,
+				770CDAF82B1C23270012D781 /* TrollLibrary */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		7733BDF62E010C9800249E75 /* Resources */ = {
+		770CDAF72B1C23270012D781 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				770CDB042B1C232A0012D781 /* Preview Assets.xcassets in Resources */,
+				770CDB012B1C232A0012D781 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		7733BDF42E010C9800249E75 /* Sources */ = {
+		770CDAF52B1C23270012D781 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				770CDAFF2B1C23270012D781 /* ContentView.swift in Sources */,
+				E38566E22B1CF656007781D8 /* DarkAndLightMode.swift in Sources */,
+				770CDAFD2B1C23270012D781 /* TrollLibraryApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		7733BE012E010C9900249E75 /* Debug */ = {
+		770CDB052B1C232A0012D781 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -160,7 +184,6 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEVELOPMENT_TEAM = 3YK32DPS3W;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
@@ -178,7 +201,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -189,7 +212,7 @@
 			};
 			name = Debug;
 		};
-		7733BE022E010C9900249E75 /* Release */ = {
+		770CDB062B1C232A0012D781 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -224,7 +247,6 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEVELOPMENT_TEAM = 3YK32DPS3W;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
@@ -236,7 +258,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -246,63 +268,69 @@
 			};
 			name = Release;
 		};
-		7733BE042E010C9900249E75 /* Debug */ = {
+		770CDB082B1C232A0012D781 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 3YK32DPS3W;
+				DEVELOPMENT_ASSET_PATHS = "\"TrollLibrary/Preview Content\"";
+				DEVELOPMENT_TEAM = 9AK7YZKNP9;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = TrollLibrary;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = aaravgupta.TrollLibrary;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aaravgupta.TrollLibrary;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				STRING_CATALOG_GENERATE_SYMBOLS = YES;
-				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		7733BE052E010C9900249E75 /* Release */ = {
+		770CDB092B1C232A0012D781 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 3YK32DPS3W;
+				DEVELOPMENT_ASSET_PATHS = "\"TrollLibrary/Preview Content\"";
+				DEVELOPMENT_TEAM = 9AK7YZKNP9;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = TrollLibrary;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = aaravgupta.TrollLibrary;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aaravgupta.TrollLibrary;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				STRING_CATALOG_GENERATE_SYMBOLS = YES;
-				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -311,25 +339,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		7733BDF32E010C9800249E75 /* Build configuration list for PBXProject "TrollLibrary" */ = {
+		770CDAF42B1C23270012D781 /* Build configuration list for PBXProject "TrollLibrary" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7733BE012E010C9900249E75 /* Debug */,
-				7733BE022E010C9900249E75 /* Release */,
+				770CDB052B1C232A0012D781 /* Debug */,
+				770CDB062B1C232A0012D781 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7733BE032E010C9900249E75 /* Build configuration list for PBXNativeTarget "TrollLibrary" */ = {
+		770CDB072B1C232A0012D781 /* Build configuration list for PBXNativeTarget "TrollLibrary" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7733BE042E010C9900249E75 /* Debug */,
-				7733BE052E010C9900249E75 /* Release */,
+				770CDB082B1C232A0012D781 /* Debug */,
+				770CDB092B1C232A0012D781 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 7733BDF02E010C9800249E75 /* Project object */;
+	rootObject = 770CDAF12B1C23270012D781 /* Project object */;
 }
